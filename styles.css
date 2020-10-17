@@ -93,7 +93,7 @@ hr {
 /* Hero Image */
 
 .hero-image {
-  background-image: url("../jumbotron_image.png");
+  background-image: url("..jumbotron_image.png");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -145,7 +145,7 @@ hr {
 }
 
 .mission-image {
-  background-image: url("../Chopsticks.png");
+  background-image: url("..Chopsticks.png");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -211,7 +211,7 @@ hr {
 /* About */
 
 .about-image {
-  background-image: url("../Background3.png");
+  background-image: url("..Background3.png");
   height: 330px;
   background-position: center;
   background-repeat: no-repeat;
