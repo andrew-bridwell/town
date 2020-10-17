@@ -1,0 +1,264 @@
+/* Fonts
+Montserrat
+font-family: 'Montserrat', sans-serif;
+Athelas
+font-family: 'Athelas', serif;
+ */
+
+ /* Icons
+Facebook - <i class="fab fa-facebook-f"></i>
+Instagram - <i class="fab fa-instagram"></i>
+Location - <i class="fas fa-map-marker-alt"></i>
+Download - <i class="far fa-arrow-to-bottom"></i>
+Nav Icon - <i class="far fa-bars"></i>
+  */
+
+ /* Colors
+ White - #FFF
+ Black - #000
+ Fire Starter - #be1e2d
+ Cool Down - #8a8c8f
+ Sleek - #41393d
+ Spicy - #ef4e22
+ Lucky - #d4a18d
+ Bamboo - #d7e4c2
+  */
+
+body {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Athelas', serif;
+}
+
+h4, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: solid #be1e2d 2px;
+  border-bottom: none;
+  width: 25%;
+  margin: 10px auto 10px auto;
+}
+
+/* Sections */
+
+.white-section {
+  background-color: #FFF;
+}
+
+.lucky-section {
+  background-color: #d4a18d;
+}
+
+.black-section {
+  background-color: #000;
+}
+
+/* Nav */
+
+.nav-image {
+  width: 150px;
+}
+
+.nav-link {
+  color: #8a8c8f;
+  margin: 0 5px;
+}
+
+.nav-link:hover {
+  color: #be1e2d;
+}
+
+.nav-icon{
+  color: #8a8c8f;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 1% 8% 1%;
+}
+
+.container-fluid-sm {
+  padding: 0.5% 8% 0.5%;
+}
+
+.container-fluid-lg {
+  padding: 2% 10% 2%;
+}
+
+/* Hero Image */
+
+.hero-image {
+  background-image: url("../jumbotron_image.png");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.display-4 {
+  color: #fff;
+  font-size: 5rem;
+  padding: 130px 0 30px;
+}
+
+.menu {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Book a Table */
+
+.headline {
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.book-btn {
+  background-color: #be1e2d;
+  border: 0;
+  margin-top: 40px;
+  width: 15%;
+}
+
+.book-btn:hover {
+  background-color: #931924;
+}
+
+.book-form {
+  border: 0;
+  background-color: #FFF;
+  opacity: .6;
+  color: #000;
+}
+
+/* Mission */
+
+.town-logo {
+  width: 500px;
+  padding: 70px 0 20px;
+}
+
+.mission-image {
+  background-image: url("../Chopsticks.png");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.mission {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+/* Locations/Subscribe */
+
+.subscribe {
+  margin: auto;
+}
+
+.header {
+  font-size: 2.5rem;
+}
+
+.button {
+  height: 40px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+#email {
+  width: 25%;
+  background-color: #fff;
+  opacity: .6;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+#submit {
+  height: 40px;
+  background-color: #be1e2d;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0 10px;
+  margin-left: 10px;
+}
+
+#submit:hover {
+  background-color: #931924;
+}
+
+.loc-icon {
+  padding: 10px 0;
+}
+
+.subs {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* About */
+
+.about-image {
+  background-image: url("../Background3.png");
+  height: 330px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.headline-white {
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.vision {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+/* Contact */
+
+.form-control {
+  margin: auto;
+}
+
+#contactForm {
+  width: 30%;
+  background-color: #fff;
+  opacity: .6;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+/* Footer */
+
+.copyright {
+  float: left;
+  opacity: .5;
+  color: #8a8c8f;
+}
+
+.social-icons {
+  float: right;
+  margin: 10px;
+  opacity: .5;
+  color: #8a8c8f;
+}

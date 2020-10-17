@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Town</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1ac7cdba0.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/fpi6ujd.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <section class="black-section" id="nav">
+      <div class="container-fluid-sm">
+    <!-- Nav Bar (insert title id above) -->
+    <nav class="navbar navbar-expand-lg">
+
+      <a class="navbar-brand" href="#title"><img class="nav-image" src="Town_Logo.png"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="nav-icon far fa-bars fa-2x"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mission">Mission</a>
+          </li>
+          <li class="nav-contact">
+            <a class="nav-link" href="#locations">Locations</a>
+          </li>
+          <li class="nav-contact">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-contact">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </section>
+    <!-- Jumbotron -->
+    <section class="image-section" id="home">
+      <div class="hero-image jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Good Cuisine...Good Fortune</h1>
+          <!-- Make this a download action button to download the Menu -->
+          <form method="get" action="#">
+            <button type="button" class="menu btn btn-lg btn-outline-light"><i class="far fa-arrow-to-bottom"></i> View Menu</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Book a Table -->
+    <section class="lucky-section" id="book">
+      <div class="container-fluid-lg">
+        <div class="bat">
+          <h3 class="headline">Book a Table</h3>
+          <!-- form -->
+          <form>
+            <div class="row">
+              <div class="col col-lg-3">
+                <input type="text" class="book-form form-control" placeholder="Name">
+              </div>
+              <div class="col col-lg-3">
+                <input type="text" class="book-form form-control" placeholder="Date">
+              </div>
+              <div class="col col-lg-3">
+                <input type="text" class="book-form form-control" placeholder="Time">
+              </div>
+              <div class="col col-lg-3">
+                <input type="text" class="book-form form-control" placeholder="Party Size">
+              </div>
+              <div class="col">
+                <button type="button" class="book-btn btn btn-primary">Book</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Mission -->
+    <section class="image-section" id="mission">
+      <div class="mission-image jumbotron jumbotron-fluid">
+          <img class="town-logo" src="Town_Logo.png" alt="TOWN Logo" />
+        <div class="mission">
+          <p>At TOWN, it is our mission to provide each and every guest with quality,<br>style and the wish for good fortune through a high-end<br> Chinese cultural experience.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribe and Locations -->
+    <section class="lucky-section" id="locations">
+      <div class="container-fluid">
+        <!-- Subscribe Form -->
+        <form class="subscribe" action="#" method="post" name="subscribe">
+          <div class="header">
+            <h3 class="header">Subscribe for news and deals!</h3>
+          </div>
+          <div class="input">
+            <input type="text" class="button" id="email" name="email" placeholder="Your Email">
+            <input type="submit" class="button" id="submit" value="Subscribe">
+          </div>
+        </form>
+        <hr>
+        <!-- Locations -->
+        <div class="container-fluid">
+          <h3 class="headline">Locations</h3>
+          <p>2 Orlando area locations!</p>
+          <div class="row">
+            <div class="location-box col-lg-6">
+              <i class="loc-icon fas fa-map-marker-alt fa-2x"></i>
+              <h3 class="subs">Colonial Town</h3>
+              <h4 class="address">717-A Altaloma Ave</h4>
+              <hr>
+              <h4>Hours</h4>
+              <p>Mon - Thurs: 11:00 am - 10:00 pm</p>
+              <p>Fri & Sat: 11:00 am - 11:00 pm</p>
+              <p>Sunday: 12:00 noon - 10:00 pm</p>
+              <p>Phone: 407-555-0123</p>
+            </div>
+            <div class="location-box col-lg-6">
+              <i class="loc-icon fas fa-map-marker-alt fa-2x"></i>
+              <h3 class="subs">Lake Eola</h3>
+              <h4 class="address">600-B E Central Blvd</h4>
+              <hr>
+              <h4>Hours</h4>
+              <p>Mon - Thurs: 11:00 am - 10:00 pm</p>
+              <p>Fri & Sat: 11:00 am - 11:00 pm</p>
+              <p>Sunday: 12:00 noon - 10:00 pm</p>
+              <p>Phone: 407-555-0321</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section class="image-section" id="about">
+      <div class="about-image jumbotron jumbotron-fluid">
+        <h3 class="headline-white">About TOWN</h3>
+        <p class="vision">In the heart of Orlando's Colonial Town neighborhood and Lake Eola District,<br> TOWN combines a variety of Chinese cuisine to excite and delight<br> even the most picky of pallets. TOWN offers a high-end<br> Chinese cultural and culinary experience.</p>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="lucky-section" id="contact">
+      <div class="container-fluid">
+        <h3 class="headline">Contact TOWN</h3>
+        <form class="contact">
+          <div class="form-group">
+            <input type="email" class="form-control" id="contactForm" placeholder="Your Name" />
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="contactForm" placeholder="email@email.com" />
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="contactForm" rows="5" placeholder="Your Message"></textarea>
+            <div>
+              <button type="button" class="book-btn btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section class="black-section" id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="copyright col-lg-6">
+            <p>©TOWN 2020 | Privacy Policy | Terms of Service</p>
+          </div>
+          <div class="col-lg-6">
+            <i class="social-icons fab fa-instagram"></i>
+            <i class="social-icons fab fa-facebook-f"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"     crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"     crossorigin="anonymous"></script>
+  </body>
+</html>
